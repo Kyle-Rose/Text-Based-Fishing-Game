@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:id="@+id/createAccountPromptText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="129dp"
+        android:background="@color/green"
+        android:text="@string/create_account_prompt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/createUsernameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/createUsernameText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="59dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/username_text"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/createPasswordText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountPromptText" />
+
+    <EditText
+        android:id="@+id/createPasswordText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/password_text"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/createAccountButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createUsernameText" />
+
+    <Button
+        android:id="@+id/createAccountButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="235dp"
+        android:background="@color/black"
+        android:text="@string/create_account_text"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPasswordText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

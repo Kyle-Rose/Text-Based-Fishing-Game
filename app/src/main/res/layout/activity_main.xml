@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/screenText"
+        android:layout_width="334dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="45dp"
+        android:background="@color/green"
+        android:text="@string/screen_example_text"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/northButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getItemButton"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/lightBlue"
+        android:text="@string/get_item"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenText" />
+
+    <Button
+        android:id="@+id/northButton"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="121dp"
+        android:background="@color/black"
+        android:text="@string/north"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/getItemButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenText" />
+
+    <Button
+        android:id="@+id/westButton"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="52dp"
+        android:background="@color/black"
+        android:text="@string/west"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/eastButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenText" />
+
+    <Button
+        android:id="@+id/eastButton"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/black"
+        android:text="@string/east"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/getItemButton"
+        app:layout_constraintTop_toBottomOf="@+id/screenText" />
+
+    <Button
+        android:id="@+id/southButton"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/black"
+        android:text="@string/south"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/northButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

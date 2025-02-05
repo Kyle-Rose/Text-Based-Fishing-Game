@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fishing Game</string>
+    <string name="title_text">Big Bass Hunt Game</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="no_account_text">Don\'t have account?</string>
+    <string name="create_account_text">Create Account</string>
+    <string name="screen_example_text">Welcome To The Big Bass Hunt Text Adventure Game!</string>
+    <string name="get_item">Get Item</string>
+    <string name="north">N</string>
+    <string name="west">W</string>
+    <string name="east">E</string>
+    <string name="south">S</string>
+    <string name="create_account_prompt">Please fill out the details below to create an account.</string>
+</resources>
