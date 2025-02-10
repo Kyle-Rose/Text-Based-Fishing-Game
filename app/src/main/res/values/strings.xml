@@ -13,4 +13,5 @@
     <string name="east">E</string>
     <string name="south">S</string>
     <string name="create_account_prompt">Please fill out the details below to create an account.</string>
+    <string name="restart">Restart</string>
 </resources>

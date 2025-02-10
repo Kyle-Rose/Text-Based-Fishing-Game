@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         Button login_button = findViewById(R.id.loginButton);
         Button createAccount_button = findViewById(R.id.createAccountButton);
 
-        // take user to main screen
+        // Take user to main screen. Functionality to be implemented in Milestone Four with database.
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        // take user to create account screen
+        // Take user to create account screen. Functionality to be implemented in Milestone Four with database.
         createAccount_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
